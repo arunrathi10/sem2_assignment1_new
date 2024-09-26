@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+/* Fonts */
+h1, h2, h5 {
+    font-family: "Dancing Script", sans-serif; /* Font 1 */
+}
+p, .violin {
+    font-family: "Annie Use Your Telescope", sans-serif; /* Font 2 */
+}
+.line2_1 , .Chorus{
+    font-family: "Coming Soon", sans-serif; /* Font 3 */
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 170px; /* Fix height */
+    text-align: center; /* Centered the logo */
+}
+header img {
+    width: auto;
+    height: 150px; /* Fix height to image */
+}
+
+/* Section of song details */
+.about_song {
+    height: 20vh; /* Viewport height */
+    text-align: center; /* Centered the text */
+    letter-spacing: 1.55px; /* Space between letters */
+}
+.about_song h1 {
+    font-size: 50px; /* Size of font */
+}
+.about_song h2 {
+    font-size: 40px; /* Size of font */
+}
+.about_song span {
+    color: #9d6d1d; /* Color of text */
+}
+
+/* Main content */
+main {
+    text-align: center; /* Centered the text */
+}
+p, .violin{
+    margin: 0;
+    color: #fddea9;
+    font-weight: 700;
+}
+.background_div {
+    background-image: url(../img/background.jpg); /* Background image */
+    background-repeat: no-repeat; /* Image will not repeat */
+    background-size: cover; /* Cover the whole container */
+}
+main section {
+    margin-top: 4%; /* Margin from top */
+}
+/* Lyrics Styles */
+#line1_0 {
+    color: #4D2C26; /* Color of text */
+    font-size: 40px; /* Size of font */
+    text-shadow: 2px 2px 2px rgba(0,0,0,.1); /* Shadow of text */
+}
+#line1_1, #line2_0 {
+    color: #4D2C26; /* Color of text */
+    font-size: 33px; /* Size of font */
+    text-shadow: 2px 2px 2px rgba(0,0,0,.1); /* Shadow of text */
+}
+.line2_1{
+    color: #fddea9; /* Color of text */
+    font-size: 22px; /* Size of font */
+}
+.verse_1 {
+    color: #4D2C26; /* Color of text */
+    font-size: 38px; /* Size of font */
+    text-shadow: 2px 2px 2px rgba(0,0,0,.1); /* Shadow of text */
+}
+.Chorus_1 {
+    color: #4D2C26; /* Color of text */
+    font-size: 55px; /* Size of font */
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2); /* Shadow of text */
+}
+.Chorus {
+    font-size: 35px; /* Size of font */
+}
+.verse_2 {
+    font-size: 60px; /* Size of font */
+    color: #4D2C26; /* Color of text */
+    text-shadow: 2px 2px 2px rgba(0,0,0,.3); /* Shadow of text */
+}
+
+/* Footer */
+footer {
+    text-align: center; /* Centered the text */
+}
+footer h5 {
+    font-weight: 600; /* Boldness of font */
+    text-shadow: 2px 2px 2px rgba(0,0,0,.6); /* Shadow of text */
+    font-size: 35px; /* Size of font */
+    letter-spacing: 1.95px; /* Space between letters */
+}
